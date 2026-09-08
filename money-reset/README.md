@@ -16,11 +16,11 @@ GitHub Pages requires `index.html` at the top level of the publishing source.
 
 ## Before launch
 
-The following placeholder is intentionally left in place for later insertion:
+No placeholders remain. Payment goes to the live Razorpay link
+`https://rzp.io/rzp/bP9epxzM` (₹399); support email is `grubbite@gmail.com`.
 
-- `[INSERT RAZORPAY PAYMENT LINK]` — replaced by the Razorpay Payment Button embed (see RAZORPAY-SETUP.md)
-
-Support email is set to `grubbite@gmail.com`.
+Check that the Razorpay link's callback URL is set to
+`https://www.grubbite.com/money-reset/thank-you.html` — see RAZORPAY-SETUP.md.
 
 The PDF delivery link in `thank-you.html` is retained as supplied.
 

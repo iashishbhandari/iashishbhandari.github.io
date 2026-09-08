@@ -30,7 +30,7 @@ Gold is deliberately rationed. It marks the "unaccounted spending" bar in the he
 3. Social share image is `assets/cover-large.jpg` — consider replacing with a 1200×630 landscape composition for better link previews.
 
 ## Copy placeholders
-`[INSERT RAZORPAY PAYMENT LINK]` only. Download link and support email (grubbite@gmail.com) are set. Price (₹399) and author (GrubBite) are set. Payment runs through a Razorpay Payment Button — see RAZORPAY-SETUP.md.
+None remaining. Payment link, download link and support email are all live. Price (₹399) and author (GrubBite) are set. Payment runs through a Razorpay Payment Button — see RAZORPAY-SETUP.md.
 
 ## Accessibility & performance
 - Focus rings on CTAs (gold, 3px offset), semantic `<details>` for FAQ and objections (works without JS), `prefers-reduced-motion` respected, contrast checked on all text/background pairs.

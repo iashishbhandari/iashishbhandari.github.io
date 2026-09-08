@@ -531,20 +531,18 @@ footer p{max-width:70ch;margin:0 auto .6em}
     <div class="price">₹399</div>
     <p>The complete 58-page ebook, 14 printable worksheets, the day-by-day 30-day plan and the monthly dashboard — a PDF you keep. One payment, no subscription.</p>
     <!-- ==========================================================
-         RAZORPAY PAYMENT BUTTON
-         Paste the embed code from Razorpay Dashboard -> Payment Button
-         -> Get Code, replacing the placeholder <form> below.
-         It looks like:
-           <form><script src="https://checkout.razorpay.com/v1/payment-button.js"
-                 data-payment_button_id="pl_XXXXXXXXXXXX" async></script></form>
-         Configure the button's Redirect URL to:  https://www.grubbite.com/money-reset/thank-you.html
-         See RAZORPAY-SETUP.md for the full walkthrough.
+         RAZORPAY PAYMENT LINK
+         Live link: https://rzp.io/rzp/bP9epxzM  (₹399)
+         Opens Razorpay's hosted checkout in a new tab.
+
+         To send buyers back here after payment, set the payment link's
+         callback URL to:
+           https://www.grubbite.com/money-reset/thank-you.html
+         If the link has no callback URL, buyers stay on Razorpay's
+         confirmation screen — see RAZORPAY-SETUP.md.
          ========================================================== -->
     <div class="pay-slot" id="pay">
-      <form>
-        <!-- REPLACE THIS LINE WITH YOUR RAZORPAY EMBED SCRIPT -->
-        <a class="btn" href="[INSERT RAZORPAY PAYMENT LINK]">Get the Money Reset — ₹399</a>
-      </form>
+      <a class="btn" href="https://rzp.io/rzp/bP9epxzM" target="_blank" rel="noopener">Get the Money Reset — ₹399</a>
     </div>
     <p class="pay-methods">Pay by UPI, card, net banking or wallet. Payments handled by Razorpay.</p>
     <p class="btn-note">You're taken straight to your download as soon as the payment succeeds.</p>

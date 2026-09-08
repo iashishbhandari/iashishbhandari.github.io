@@ -1,5 +1,20 @@
 # Connecting Razorpay
 
+**Current setup:** the buy button links to the live Razorpay Payment Link
+`https://rzp.io/rzp/bP9epxzM` (₹399), opened in a new tab.
+
+Check one thing in the Razorpay dashboard: the link needs a **callback / redirect
+URL** of `https://www.grubbite.com/money-reset/thank-you.html`, otherwise buyers
+finish on Razorpay's own confirmation screen and never reach the download page.
+Open the link's settings and confirm it's set. If a payment link can't carry a
+callback URL on your account, either switch to a Payment Button or a Payment Page
+(both support redirect URLs — instructions below), or add the download link to the
+receipt email Razorpay sends.
+
+---
+
+## Alternative: Payment Button embed
+
 The site is a static page, so there's no server to verify payments. Razorpay's **Payment Button** is the right fit: one script tag, no backend, and it can send buyers to your download page after a successful payment.
 
 Before you start you need a Razorpay account with KYC completed and a settlement bank account added. Test mode works without KYC; live mode does not.
