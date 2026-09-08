@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /thank-you.html
-Sitemap: https://iashishbhandari.github.io/sitemap.xml
+Disallow: /money-reset/thank-you.html
+
+Sitemap: https://www.grubbite.com/sitemap.xml

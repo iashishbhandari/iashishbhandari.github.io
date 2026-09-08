@@ -1,51 +1,27 @@
-# The Money Reset — GrubBite
+# grubbite.com
 
-Static GitHub Pages site for **The Money Reset** by **GrubBite**.
+Static site for **GrubBite**, served by GitHub Pages from this repository at `https://www.grubbite.com/`.
 
-## GitHub Pages target
-
-This package is prepared for a **user site** repository named:
-
-`iashishbhandari.github.io`
-
-Published URL:
-
-`https://iashishbhandari.github.io/`
-
-GitHub Pages requires `index.html` at the top level of the publishing source.
-
-## Before launch
-
-The following placeholders are intentionally left in place for later insertion:
-
-- `[INSERT RAZORPAY PAYMENT LINK]`
-- `[INSERT SUPPORT EMAIL]`
-
-The PDF delivery link in `thank-you.html` is retained as supplied.
-
-## Publish
-
-1. Create a public repository named `iashishbhandari.github.io`.
-2. Upload the **contents of this ZIP** to the repository root — do not upload the ZIP itself and do not create an extra `money-reset-site/` folder.
-3. In **Settings → Pages**, choose **Deploy from a branch**, then select `main` and `/ (root)`.
-4. Open `https://iashishbhandari.github.io/` after GitHub Pages finishes deploying.
-
-GitHub may take a few minutes to publish the first deployment.
-
-## Structure
-
-```text
-.
-├── .nojekyll
-├── index.html
-├── thank-you.html
-├── robots.txt
-├── sitemap.xml
-├── assets/
-│   ├── cover.jpg
-│   └── cover-large.jpg
-├── DESIGNER-NOTES.md
-├── RAZORPAY-SETUP.md
-├── serve.bat
-└── serve.sh
 ```
+index.html          brand homepage — lists the available guides
+robots.txt          site-wide crawl rules
+sitemap.xml         site-wide sitemap
+serve.sh / .bat     local preview (serves the whole site, including subfolders)
+.nojekyll           serve files as-is, no Jekyll build
+
+money-reset/        The Money Reset — https://www.grubbite.com/money-reset/
+```
+
+## Adding another guide
+
+Each guide is a self-contained folder with its own `index.html`, `thank-you.html` and `assets/`, using paths relative to that folder. Create the folder, add a card to the homepage, and add the URL to `sitemap.xml`. No other configuration is needed — the custom domain is site-level and applies to every path beneath it.
+
+Do not add a `CNAME` file inside a guide folder; the custom domain is configured once, for the whole site.
+
+## Local preview
+
+```bash
+./serve.sh          # then open http://localhost:8080
+```
+
+Browse to `http://localhost:8080/money-reset/` to check a guide at its real path.

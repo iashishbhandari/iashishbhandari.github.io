@@ -53,7 +53,7 @@ Done. `thank-you.html` points at your Google Drive file:
 
 **Check the sharing setting.** In Drive, the file must be set to *Anyone with the link → Viewer*. If it's restricted to your account, buyers get a "request access" screen instead of the book — the single most common way this breaks.
 
-Still to replace: `[INSERT SUPPORT EMAIL]` in `thank-you.html` and once in `index.html`'s FAQ.
+Support email is set to `grubbite@gmail.com` in `thank-you.html` and in `index.html`'s FAQ.
 
 ## Step 5 — Test properly
 

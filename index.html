@@ -3,599 +3,63 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="canonical" href="https://iashishbhandari.github.io/">
-<title>The Money Reset — A 30-Day Money System for Indian Salaried Professionals</title>
-<meta name="description" content="A 30-day money reset for Indian salaried professionals who earn but can't save. Find your money leaks, build a salary map, automate savings, and run a system that takes 40 minutes a month.">
-<meta property="og:title" content="The Money Reset">
-<meta property="og:description" content="The 30-Day Money Reset for Indian Salaried Professionals Who Earn but Can't Save. By GrubBite. ₹399.">
-<meta name="author" content="GrubBite">
-<meta property="og:url" content="https://iashishbhandari.github.io/">
-  <meta property="og:image" content="https://iashishbhandari.github.io/assets/cover-large.jpg">
+<title>GrubBite — practical money guides for Indian salaried professionals</title>
+<meta name="description" content="GrubBite publishes plain-English, practical money guides written for Indian salaried professionals.">
+<link rel="canonical" href="https://www.grubbite.com/">
+<meta property="og:title" content="GrubBite">
+<meta property="og:description" content="Practical money guides for Indian salaried professionals.">
+<meta property="og:url" content="https://www.grubbite.com/">
+<meta property="og:image" content="https://www.grubbite.com/money-reset/assets/cover-large.jpg">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{
-  --ink:#0C2B33;          /* deep teal-navy, pulled from the cover */
-  --ink-soft:#3C5A61;
-  --paper:#FBFAF6;
-  --paper-2:#F2F0E9;
-  --emerald:#0F6A52;
-  --emerald-dark:#0B5341;
-  --gold:#E9B23C;
-  --line:#DDD9CE;
-  --rose:#FDF6EC;
-  --maxw:1120px;
-  --read:66ch;
-}
+:root{--ink:#0C2B33;--ink-soft:#3C5A61;--paper:#FBFAF6;--emerald:#0F6A52;--emerald-dark:#0B5341;--gold:#E9B23C;--line:#DDD9CE}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  margin:0;background:var(--paper);color:var(--ink);
-  font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
-  font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;
-}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,system-ui,-apple-system,sans-serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
-a{color:inherit}
-h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:700;line-height:1.08;letter-spacing:-0.015em;margin:0 0 .5em}
-h1{font-size:clamp(2.4rem,6.2vw,4.1rem)}
-h2{font-size:clamp(1.85rem,4vw,2.75rem)}
-h3{font-size:1.22rem;line-height:1.25}
-p{margin:0 0 1em;max-width:var(--read)}
-.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
-section{padding:84px 0;border-top:1px solid var(--line)}
-section:first-of-type{border-top:0}
-.lede{font-size:1.14rem;color:var(--ink-soft)}
-.eyebrow{font-family:Fraunces,serif;font-size:1rem;font-weight:600;font-style:italic;color:var(--emerald);margin:0 0 14px}
-.center{text-align:center}
-.center p{margin-left:auto;margin-right:auto}
-.hl{background:linear-gradient(transparent 62%, #FBE6AE 62%);padding:0 .08em}
-
-/* buttons */
-.btn{
-  display:inline-block;background:var(--emerald);color:#fff;text-decoration:none;
-  font-weight:600;font-size:1.02rem;padding:17px 34px;border-radius:6px;
-  box-shadow:0 1px 0 rgba(0,0,0,.12);transition:background .15s ease;
-}
+.wrap{max-width:860px;margin:0 auto;padding:64px 24px 80px}
+.brand{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:1.35rem;letter-spacing:-.01em}
+.brand span{color:var(--gold)}
+h1{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:clamp(2rem,5.4vw,3rem);line-height:1.1;letter-spacing:-.015em;margin:44px 0 .35em;max-width:20ch}
+.lede{font-size:1.12rem;color:var(--ink-soft);max-width:56ch;margin:0 0 8px}
+.book{display:grid;grid-template-columns:200px 1fr;gap:36px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:12px;padding:30px;margin-top:52px}
+.book img{border-radius:3px;box-shadow:0 18px 40px -22px rgba(12,43,51,.6)}
+.book h2{font-family:Fraunces,serif;font-weight:700;font-size:1.55rem;margin:0 0 .3em;line-height:1.15}
+.book p{color:var(--ink-soft);margin:0 0 18px;font-size:1rem}
+.tag{display:inline-block;font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--emerald);margin-bottom:10px}
+.btn{display:inline-block;background:var(--emerald);color:#fff;text-decoration:none;font-weight:600;padding:15px 30px;border-radius:6px}
 .btn:hover,.btn:focus{background:var(--emerald-dark)}
 .btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
-.btn-note{font-size:.93rem;color:var(--ink-soft);margin-top:14px}
-
-/* hero */
-.hero{background:var(--paper);padding-top:56px;padding-bottom:76px}
-.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center}
-.hero h1{margin-bottom:20px}
-.byline{font-size:.95rem;font-weight:600;letter-spacing:.02em;color:var(--ink-soft);margin:-8px 0 18px}
-.hero .sub{font-size:1.2rem;color:var(--ink-soft);max-width:34ch}
-.cover-frame{position:relative}
-.cover-frame img{position:relative;z-index:1;border-radius:4px;box-shadow:0 28px 60px -28px rgba(12,43,51,.55), 0 2px 6px rgba(12,43,51,.12);width:100%}
-.cover-frame::after{content:"";position:absolute;inset:auto -16px -16px auto;width:66%;height:78%;background:var(--gold);opacity:.35;border-radius:4px;z-index:0}
-
-/* the salary strip: the one bold visual */
-.strip{margin:44px 0 0;border:1px solid var(--line);background:#fff;border-radius:10px;overflow:hidden;max-width:560px}
-.strip-top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:16px 20px;border-bottom:1px solid var(--line)}
-.strip-top .msg{font-size:.9rem;color:var(--ink-soft)}
-.strip-top .amt{font-family:Fraunces,serif;font-weight:700;font-size:1.5rem}
-.bars{display:flex;height:26px}
-.bars span{display:block}
-.b1{width:31%;background:#0C2B33}
-.b2{width:17%;background:#1F6B58}
-.b3{width:14%;background:#4E9A7F}
-.b4{width:23%;background:#E9B23C}
-.b5{width:15%;background:#C9C4B4}
-.legend{display:flex;flex-wrap:wrap;gap:8px 18px;padding:14px 20px 18px;font-size:.85rem;color:var(--ink-soft)}
-.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:7px}
-.strip-foot{padding:0 20px 18px;font-size:.88rem;color:var(--ink-soft);max-width:none}
-
-/* problem month list */
-.month{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin:36px 0}
-.month div{background:var(--paper);padding:18px 16px}
-.month .d{font-family:Fraunces,serif;font-weight:600;color:var(--emerald);font-size:.95rem;margin-bottom:4px}
-.month .t{font-size:.95rem;color:var(--ink-soft)}
-
-/* generic lists */
-.checks{list-style:none;padding:0;margin:0;max-width:var(--read)}
-.checks li{padding:11px 0 11px 34px;border-bottom:1px solid var(--line);position:relative}
-.checks li::before{content:"";position:absolute;left:4px;top:19px;width:12px;height:6px;border-left:2.5px solid var(--emerald);border-bottom:2.5px solid var(--emerald);transform:rotate(-45deg)}
-.crosses li::before{border:0;left:2px;top:17px;width:14px;height:14px;transform:none;
-  background:linear-gradient(45deg,transparent 44%,#B4642F 44%,#B4642F 56%,transparent 56%),linear-gradient(-45deg,transparent 44%,#B4642F 44%,#B4642F 56%,transparent 56%)}
-
-/* chapters */
-.chapters{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:0;border-top:1px solid var(--line)}
-.ch{padding:28px 28px 26px 0;border-bottom:1px solid var(--line)}
-.ch .num{font-family:Fraunces,serif;font-weight:600;font-size:.95rem;color:var(--gold);margin-bottom:6px}
-.ch h3{margin-bottom:8px}
-.ch p{font-size:.98rem;margin-bottom:.6em}
-.ch .why{font-size:.93rem;color:var(--ink-soft);border-left:2px solid var(--line);padding-left:12px;margin:0}
-
-/* worksheets */
-.sheets{display:flex;flex-wrap:wrap;gap:10px;margin:32px 0 8px;padding:0;list-style:none;max-width:none}
-.sheets li{background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 18px;font-size:.94rem;font-weight:500}
-.mock{border:1px dashed #C3BFB2;background:#fff;border-radius:8px;padding:22px;color:var(--ink-soft);font-size:.9rem}
-.mock-title{font-family:Fraunces,serif;font-weight:600;color:var(--ink);font-size:1rem;margin-bottom:10px}
-.mock-rows span{display:block;height:11px;background:var(--paper-2);border-radius:2px;margin-bottom:9px}
-.mock-rows span:nth-child(2){width:86%}.mock-rows span:nth-child(3){width:72%}
-.mock-rows span:nth-child(4){width:91%}.mock-rows span:nth-child(5){width:64%}
-
-/* timeline */
-.days{border-left:2px solid var(--line);padding-left:26px;margin-top:36px;max-width:var(--read)}
-.day{position:relative;padding-bottom:30px}
-.day::before{content:"";position:absolute;left:-33px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--emerald);border:3px solid var(--paper)}
-.day .r{font-family:Fraunces,serif;font-weight:600;color:var(--emerald);font-size:1.02rem}
-.day p{margin:.2em 0 0;font-size:.99rem}
-
-/* cases */
-.cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px;margin-top:36px}
-.case{background:#fff;border:1px solid var(--line);border-radius:10px;padding:26px}
-.case h3{font-size:1.5rem;color:var(--emerald)}
-.case dt{font-family:Fraunces,serif;font-weight:600;font-size:.92rem;color:var(--gold);margin-top:14px}
-.case dd{margin:3px 0 0;font-size:.95rem;color:var(--ink-soft)}
-.case dl{margin:0}
-
-/* compare */
-.compare{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:36px;border:1px solid var(--line);border-radius:10px;overflow:hidden}
-.compare>div{padding:28px}
-.compare .a{background:var(--paper-2)}
-.compare .b{background:var(--ink);color:#EAF1EF}
-.compare .b h3{color:#fff}
-.compare h3{font-size:1.1rem;margin-bottom:14px}
-.compare ul{margin:0;padding-left:18px;font-size:.97rem}
-.compare li{margin-bottom:8px}
-.compare .b li::marker{color:var(--gold)}
-
-/* benefits */
-.bens{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px 40px;margin-top:36px}
-.ben strong{display:block;font-family:Fraunces,serif;font-size:1.08rem;margin-bottom:5px}
-.ben p{font-size:.95rem;color:var(--ink-soft);margin:0}
-
-/* faq / objections */
-details{border-bottom:1px solid var(--line);padding:18px 0}
-summary{cursor:pointer;font-weight:600;font-size:1.04rem;list-style:none;display:flex;justify-content:space-between;gap:20px;align-items:flex-start}
-summary::-webkit-details-marker{display:none}
-summary::after{content:"+";font-family:Fraunces,serif;color:var(--emerald);font-size:1.4rem;line-height:1}
-details[open] summary::after{content:"–"}
-details p{margin:12px 0 0;color:var(--ink-soft);font-size:.99rem}
-.faq-wrap{max-width:780px}
-
-/* details table */
-.spec{width:100%;border-collapse:collapse;max-width:620px;margin-top:28px}
-.spec th,.spec td{text-align:left;padding:14px 12px;border-bottom:1px solid var(--line);font-size:1rem}
-.spec th{font-weight:600;width:34%;font-family:Fraunces,serif}
-
-/* stack */
-.stack{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px;margin-top:36px}
-.item{border-top:3px solid var(--emerald);padding-top:16px}
-.item h3{font-size:1.06rem;margin-bottom:6px}
-.item p{font-size:.94rem;color:var(--ink-soft);margin:0}
-
-/* buy */
-.buy{background:var(--ink);color:#EAF1EF;text-align:center}
-.buy h2{color:#fff}
-.buy p{color:#B8CCC8;margin-left:auto;margin-right:auto}
-.price{font-family:Fraunces,serif;font-weight:700;font-size:clamp(2.6rem,7vw,3.8rem);color:var(--gold);margin:10px 0 6px;line-height:1}
-.buy .btn{background:var(--gold);color:#0C2B33;font-size:1.1rem;padding:19px 44px}
-.pay-slot{display:flex;justify-content:center;margin:26px 0 4px;min-height:56px}
-.pay-slot form{margin:0}
-.pay-methods{font-size:.86rem;color:#9FB6B2;margin-top:6px}
-.pay-fallback{font-size:.9rem;color:#9FB6B2;margin-top:10px}
-.pay-fallback a{color:var(--gold)}
-.buy .btn:hover{background:#F2C25C}
-.buy .btn-note{color:#9FB6B2}
-.buy-cover{max-width:230px;margin:0 auto 26px;border-radius:3px;box-shadow:0 20px 44px -20px rgba(0,0,0,.7)}
-
-/* final */
-.final{background:var(--paper-2);text-align:center}
-.final h2{font-size:clamp(2rem,5vw,3.1rem);max-width:16ch;margin-left:auto;margin-right:auto}
-.final p{margin-left:auto;margin-right:auto}
-.final .btn-note{margin-left:auto;margin-right:auto}
-footer{padding:44px 0 60px;font-size:.86rem;color:var(--ink-soft);text-align:center}
-footer p{max-width:70ch;margin:0 auto .6em}
-
-@media (max-width:860px){
-  .hero-grid{grid-template-columns:1fr;gap:40px}
-  .cover-frame{max-width:330px;margin:0 auto}
-  .compare{grid-template-columns:1fr}
-  section{padding:64px 0}
-  .ch{padding-right:0}
-}
-@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
+footer{border-top:1px solid var(--line);margin-top:64px;padding-top:26px;font-size:.87rem;color:var(--ink-soft)}
+footer a{color:var(--emerald)}
+@media (max-width:620px){.book{grid-template-columns:1fr;gap:24px;text-align:center}.book img{max-width:170px;margin:0 auto}}
 </style>
 </head>
 <body>
+<div class="wrap">
+  <div class="brand">Grub<span>Bite</span></div>
 
-<!-- 1. HERO -->
-<section class="hero">
-  <div class="wrap hero-grid">
+  <h1>Practical money guides for Indian salaried professionals.</h1>
+  <p class="lede">Plain English, rupee amounts, and systems you can actually run — written for people with UPI habits, EMIs and a salary that disappears faster than it should.</p>
+
+  <div class="book">
+    <img src="money-reset/assets/cover.jpg" width="600" height="900" alt="The Money Reset cover">
     <div>
-      <p class="eyebrow">Salary on the 1st. Nothing left by the 25th.</p>
-      <h1>Where did my salary go?</h1>
-      <p class="byline">By GrubBite</p>
-      <p class="sub">A 30-day money reset for Indian salaried professionals who earn a decent income and still can't figure out where it goes. Track it, understand it, and build a system that runs every month without willpower.</p>
-      <p style="margin-top:26px"><a class="btn" href="#buy">Start your 30-day reset — ₹399</a></p>
-      <p class="btn-note">₹399 · PDF · 58 pages · 14 printable worksheets<br>Written for Indian salaries, UPI spending and real EMIs.</p>
-
-      <div class="strip" aria-label="Illustration of where a typical monthly salary goes">
-        <div class="strip-top">
-          <span class="msg">Your a/c XXXX2847 is credited with</span>
-          <span class="amt">₹52,340</span>
-        </div>
-        <div class="bars" role="img" aria-label="Bar showing salary split into rent, EMI and bills, groceries and transport, untracked spending, and what's left">
-          <span class="b1"></span><span class="b2"></span><span class="b3"></span><span class="b4"></span><span class="b5"></span>
-        </div>
-        <div class="legend">
-          <span><i style="background:#0C2B33"></i>Rent</span>
-          <span><i style="background:#1F6B58"></i>EMI &amp; bills</span>
-          <span><i style="background:#4E9A7F"></i>Groceries &amp; transport</span>
-          <span><i style="background:#E9B23C"></i>The part you can't account for</span>
-          <span><i style="background:#C9C4B4"></i>Left over</span>
-        </div>
-        <p class="strip-foot">Most people can explain about 60% of their month. This book is about the gold section.</p>
-      </div>
-    </div>
-    <div class="cover-frame">
-      <img src="assets/cover.jpg" width="760" height="1140" alt="Cover of The Money Reset — Simple Steps to Save, Spend, Invest and Build the Life You Want">
+      <span class="tag">Available now</span>
+      <h2>The Money Reset</h2>
+      <p>A 30-day money reset for people who earn but can't save. Find your money leaks, build a salary map that fits your life, automate savings, and run a system that takes 40 minutes a month. 58 pages and 14 printable worksheets.</p>
+      <a class="btn" href="money-reset/">Read more — ₹399</a>
     </div>
   </div>
-</section>
 
-<!-- 2. PROBLEM -->
-<section>
-  <div class="wrap">
-    <h2>Your salary isn't disappearing. It's going somewhere.</h2>
-    <p class="lede">You know exactly how much you earn. You have almost no idea how it leaves.</p>
-
-    <div class="month">
-      <div><div class="d">1st</div><div class="t">Salary lands. For ninety seconds, you feel rich.</div></div>
-      <div><div class="d">2nd–5th</div><div class="t">Rent. Card bill. EMI. ₹2,000 sent home without thinking twice.</div></div>
-      <div><div class="d">Every day</div><div class="t">₹40 chai, ₹190 auto, ₹60 snack, ₹250 to split a bill. None of it feels like a decision.</div></div>
-      <div><div class="d">Friday–Sunday</div><div class="t">Dinner, delivery twice, a sale you couldn't argue with.</div></div>
-      <div><div class="d">24th</div><div class="t">You start checking your balance before ordering anything.</div></div>
-      <div><div class="d">29th</div><div class="t">You open the bank app, look away, and open it again.</div></div>
-    </div>
-
-    <p>Nobody sends you a message that says <em>you have now spent ₹9,000 on things you won't remember by Thursday</em>. So the month ends in a fog, and the fog repeats.</p>
-    <p>Here's the part worth hearing clearly: <span class="hl">this usually isn't a discipline problem.</span> You've never been handed a system for managing a salary. Nobody at school or college taught cash flow. You learned to earn. The second half was left out.</p>
-    <p>Your money left because you told it to — one small, reasonable decision at a time. You just never wrote down the instructions.</p>
-  </div>
-</section>
-
-<!-- 3. YOU'RE NOT ALONE -->
-<section>
-  <div class="wrap">
-    <h2>If any of this sounds like your month, you're in the right place</h2>
-    <ul class="checks">
-      <li>You earn more than you did two years ago, and you're saving about the same.</li>
-      <li>You save in good months and skip it entirely in the months that matter.</li>
-      <li>You've paid for subscriptions you forgot you had.</li>
-      <li>You use a credit card for convenience and occasionally carry the balance forward.</li>
-      <li>You feel a small flicker of guilt every time you order dinner.</li>
-      <li>You've read that you should invest, closed six tabs, and done nothing.</li>
-      <li>You've started budgeting three times and abandoned it by the 15th.</li>
-      <li>You got a raise and somehow feel more financially stretched than before.</li>
-    </ul>
-    <p style="margin-top:28px">None of that makes you bad with money. It makes you someone whose money has no structure yet.</p>
-  </div>
-</section>
-
-<!-- 4. SOLUTION -->
-<section>
-  <div class="wrap">
-    <p class="eyebrow">The solution</p>
-    <h2>The Money Reset</h2>
-    <p class="lede">A 30-day financial reset system for Indian salaried professionals. Not a finance textbook. Not a lecture on compound interest. A sequence of small tasks that ends with a working monthly system.</p>
-    <p>Most personal-finance books explain concepts and leave you to figure out the application. This one is built the other way round: every chapter ends with a specific task you can do in 5 to 15 minutes, and everything you build in one chapter gets used in the next.</p>
-    <p><strong>Less theory. More action.</strong></p>
-    <p style="font-family:Fraunces,serif;font-size:1.25rem;line-height:1.5;margin-top:24px">Track → Understand → Reset → Save → Organise → Repeat</p>
-    <p>By day 30 you're not richer. You're organised — and organised compounds quietly for years afterward.</p>
-    <p style="margin-top:26px"><a class="btn" href="#buy">Get the Money Reset</a></p>
-  </div>
-</section>
-
-<!-- 5. WHAT'S INSIDE -->
-<section>
-  <div class="wrap">
-    <h2>What you'll work through</h2>
-    <p class="lede">Ten chapters. Each one leaves you with something built, not just something understood.</p>
-    <div class="chapters">
-      <div class="ch"><div class="num">One</div><h3>Find your money leaks</h3>
-        <p>A 30-day expense audit with twelve categories built for Indian spending — including the UPI micro-payments and convenience charges that never register as decisions.</p>
-        <p class="why">Why it matters: the gap between what you think you spend and what you actually spend is the whole problem.</p></div>
-      <div class="ch"><div class="num">Two</div><h3>Build your salary map</h3>
-        <p>A four-bucket allocation you build around your own rent, city, family responsibilities and debt — with worked examples at ₹30K, ₹50K, ₹75K and ₹1L, and the reasoning behind each.</p>
-        <p class="why">Why it matters: 50/30/20 breaks the moment rent is 44% of your income. Your plan shouldn't.</p></div>
-      <div class="ch"><div class="num">Three</div><h3>Pay yourself first</h3>
-        <p>The 20-minute salary setup: a separate account, standing instructions timed to land after your credit date, bills automated, card set to pay in full.</p>
-        <p class="why">Why it matters: saving what's left over never works. Saving before you spend works every month.</p></div>
-      <div class="ch"><div class="num">Four</div><h3>The 30-day spending reset</h3>
-        <p>Seven practical tools — the 24-hour rule, weekly limits, subscription and UPI audits, the convenience check, the weekend reset — with thresholds you set to your own income.</p>
-        <p class="why">Why it matters: you're not trying to spend nothing. You're trying to spend on purpose.</p></div>
-      <div class="ch"><div class="num">Five</div><h3>Build your emergency fund</h3>
-        <p>A staged approach — first ₹10,000, then one month of essentials, then a personal target — plus a clear line between what counts as an emergency and what doesn't.</p>
-        <p class="why">Why it matters: most debt spirals start with an ordinary bad week and an empty account.</p></div>
-      <div class="ch"><div class="num">Six</div><h3>Stop debt from eating your salary</h3>
-        <p>A full debt inventory, the real cost of revolving a credit card balance, and an honest comparison of the avalanche and snowball payoff methods — including when each one is the right call.</p>
-        <p class="why">Why it matters: a plan with an end date replaces a permanent background worry.</p></div>
-      <div class="ch"><div class="num">Seven</div><h3>Start investing without feeling overwhelmed</h3>
-        <p>Saving vs investing, inflation, compounding, risk, time horizons, SIPs, index funds, expense ratios, EPF, NPS and PPF — in plain English, with no products pushed at you.</p>
-        <p class="why">Why it matters: most people don't skip investing because they decided against it. They skip it because the vocabulary is intimidating.</p></div>
-      <div class="ch"><div class="num">Eight</div><h3>Lifestyle inflation</h3>
-        <p>Why going from ₹40,000 to ₹1,00,000 can leave you feeling more stretched, and a simple rule for splitting every future raise before it arrives.</p>
-        <p class="why">Why it matters: discipline shouldn't mean never upgrading your life. It means choosing which parts get upgraded.</p></div>
-      <div class="ch"><div class="num">Nine</div><h3>Build your monthly money system</h3>
-        <p>A repeatable rhythm: what happens on salary day, what you check each week, and a ten-minute month-end review with a one-page dashboard.</p>
-        <p class="why">Why it matters: roughly 40 minutes a month, and you never have to rebuild the plan again.</p></div>
-      <div class="ch"><div class="num">Ten</div><h3>The 30-day salary reset</h3>
-        <p>Everything above, sequenced day by day — what to do, why it matters, how long it takes, a checklist, and what to expect at the end of each stage.</p>
-        <p class="why">Why it matters: knowing what to do on day 12 is the difference between finishing and drifting.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- 6. WORKSHEETS -->
-<section>
-  <div class="wrap">
-    <p class="eyebrow">The part that does the work</p>
-    <h2>You're not just reading about your money. You're working through it.</h2>
-    <p class="lede">Fourteen printable worksheets, sized for A4, with real writing space. Print them, or copy them into a notebook or spreadsheet.</p>
-    <ul class="sheets">
-      <li>Monthly Income Tracker</li><li>30-Day Expense Tracker</li><li>Money Leak Audit</li>
-      <li>Salary Map</li><li>Needs vs Wants</li><li>Subscription Audit</li><li>Debt Inventory</li>
-      <li>Debt Payoff Planner</li><li>Emergency Fund Tracker</li><li>Savings Goal Planner</li>
-      <li>Financial Goals Planner</li><li>Monthly Money Dashboard</li><li>Monthly Financial Review</li>
-      <li>30-Day Reset Tracker</li>
-    </ul>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:34px">
-      <div class="mock"><div class="mock-title">[WORKBOOK PREVIEW — Money Leak Audit]</div><div class="mock-rows"><span></span><span></span><span></span><span></span><span></span></div>What you guessed, what you actually spent, and the gap.</div>
-      <div class="mock"><div class="mock-title">[MONEY DASHBOARD PREVIEW]</div><div class="mock-rows"><span></span><span></span><span></span><span></span><span></span></div>Planned vs actual, on one page, every month.</div>
-      <div class="mock"><div class="mock-title">[WORKSHEET MOCKUP — 30-Day Reset Tracker]</div><div class="mock-rows"><span></span><span></span><span></span><span></span><span></span></div>Nine stages, ticked off as you go.</div>
-    </div>
-    <p style="margin-top:30px">Reading about money changes very little. Twenty minutes spent setting up one standing instruction changes your next three years.</p>
-  </div>
-</section>
-
-<!-- 7. 30-DAY JOURNEY -->
-<section>
-  <div class="wrap">
-    <h2>What the 30 days actually look like</h2>
-    <p class="lede">Most days ask for 5 to 15 minutes. Two ask for about an hour. That's the entire time cost.</p>
-    <div class="days">
-      <div class="day"><div class="r">Days 1–3 · See it</div><p>Record every rupee, including the ₹20 ones. Three days of complete data beats thirty days of partial guessing.</p></div>
-      <div class="day"><div class="r">Days 4–10 · Understand it</div><p>Categorise last month's statement, compare it against what you assumed, and run the subscription and UPI audits. This is where the leaks get names and rupee figures.</p></div>
-      <div class="day"><div class="r">Days 11–17 · Build the system</div><p>Construct your salary map, then automate it — separate savings account, standing instruction, bills and card on autopay, timed around your actual credit date.</p></div>
-      <div class="day"><div class="r">Days 18–24 · Steady the base</div><p>Put every debt on one page with real balances and rates, choose a payoff order with an end date, and set your emergency fund target and monthly contribution.</p></div>
-      <div class="day"><div class="r">Days 25–30 · Make it permanent</div><p>Set three goals with dates, complete your first monthly dashboard, run your first review, and choose the one change you'll make next month.</p></div>
-    </div>
-    <p style="margin-top:8px">This is a framework, not a promise of a specific financial result. What you get out of it depends on your income, your obligations and what you actually do with it.</p>
-  </div>
-</section>
-
-<!-- 8. CASE STUDIES -->
-<section>
-  <div class="wrap">
-    <h2>Three worked examples</h2>
-    <p class="lede">Fictional people, built from very real situations. Illustrations of how the system works — not results you should expect to copy.</p>
-    <div class="cases">
-      <div class="case"><h3>₹35,000</h3>
-        <dl>
-          <dt>Problem</dt><dd>Delivery, shopping and six subscriptions eating a third of the salary, mostly on autopilot. Transfers money out of savings by the 22nd.</dd>
-          <dt>Reset</dt><dd>Solves the real cause — no easy weeknight dinner — instead of relying on willpower. Cancels three subscriptions, removes saved cards, applies a ₹1,000 purchase-delay threshold.</dd>
-          <dt>New system</dt><dd>A salary map with a 16% priorities bucket, an automated transfer on the 4th, and a weekly limit checked every Sunday.</dd>
-        </dl></div>
-      <div class="case"><h3>₹55,000</h3>
-        <dl>
-          <dt>Problem</dt><dd>Not overspending — structure. Essentials at 75% of take-home with an EMI, family support and school fees, plus a credit card balance carried for eleven months on minimum payments.</dd>
-          <dt>Reset</dt><dd>Moves the card balance to a far lower-cost EMI plan with a defined end date, and starts setting money aside monthly for the two annual bills that wrecked previous years.</dd>
-          <dt>New system</dt><dd>A realistic 8% savings rate instead of an aspirational 20%, and a written plan for where the ₹9,200 EMI goes the month it ends.</dd>
-        </dl></div>
-      <div class="case"><h3>₹90,000</h3>
-        <dl>
-          <dt>Problem</dt><dd>Lifestyle inflation across every category at once. Savings rate has actually fallen since the ₹42,000 days, despite doubling income.</dd>
-          <dt>Reset</dt><dd>Attacks the reversible costs first, sets a hard limit on eating out, and writes a split rule for the next raise before it arrives.</dd>
-          <dt>New system</dt><dd>A 35% priorities bucket, a personal loan cleared on schedule, and lifestyle spending that's smaller on paper but barely different in daily life.</dd>
-        </dl></div>
-    </div>
-  </div>
-</section>
-
-<!-- 9. DIFFERENT -->
-<section>
-  <div class="wrap">
-    <h2>Why this isn't another finance book</h2>
-    <div class="compare">
-      <div class="a"><h3>Most personal-finance books</h3>
-        <ul>
-          <li>Explain concepts and leave the application to you</li>
-          <li>Use American rents, credit scores and retirement accounts</li>
-          <li>Hand you a rule like 50/30/20 and move on</li>
-          <li>Assume you have no debt and no family obligations</li>
-          <li>Talk about markets, funds and picks</li>
-          <li>End when you finish reading</li>
-        </ul></div>
-      <div class="b"><h3>The Money Reset</h3>
-        <ul>
-          <li>Gives you a system for managing an actual salary, built step by step</li>
-          <li>Written for Indian salaries, UPI, EMIs, credit cards and money sent home</li>
-          <li>Helps you build an allocation around your own rent, city and responsibilities</li>
-          <li>Assumes both are likely, and plans around them without shaming you</li>
-          <li>Teaches the basics so you stop feeling intimidated — no stock tips, no product pushing</li>
-          <li>Ends with a monthly routine that takes about 40 minutes</li>
-        </ul></div>
-    </div>
-    <p style="margin-top:26px">No jargon you have to look up. No get-rich-quick framing. No promises about returns.</p>
-  </div>
-</section>
-
-<!-- 10 & 11. FOR / NOT FOR -->
-<section>
-  <div class="wrap" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:56px">
-    <div>
-      <h2 style="font-size:1.9rem">This is for you if…</h2>
-      <ul class="checks">
-        <li>You earn a salary and struggle to save consistently</li>
-        <li>You want to know exactly where your money goes</li>
-        <li>You want a budgeting system that survives past week two</li>
-        <li>You want to start an emergency fund but don't know the first step</li>
-        <li>You want your debt on one page with a payoff order</li>
-        <li>You want to understand investing basics before you invest</li>
-        <li>You want a money routine you can actually maintain</li>
-      </ul>
-    </div>
-    <div>
-      <h2 style="font-size:1.9rem">This isn't for you if you want…</h2>
-      <ul class="checks crosses">
-        <li>A get-rich-quick method</li>
-        <li>Guaranteed investment returns</li>
-        <li>Stock tips or fund recommendations</li>
-        <li>Crypto calls</li>
-        <li>Overnight wealth or a shortcut to quitting your job</li>
-        <li>Advanced professional portfolio strategy</li>
-      </ul>
-      <p style="margin-top:20px;font-size:.97rem;color:var(--ink-soft)">If that's what you're after, this will disappoint you — and it's better that you know now.</p>
-    </div>
-  </div>
-</section>
-
-<!-- 12. BENEFITS -->
-<section>
-  <div class="wrap">
-    <h2>What changes after 30 days</h2>
-    <div class="bens">
-      <div class="ben"><strong>Stop guessing where your salary went</strong><p>Twelve categories, real numbers, one page — for the first time.</p></div>
-      <div class="ben"><strong>Know what you can actually spend this week</strong><p>One number on a sticky note, not mental arithmetic at the checkout.</p></div>
-      <div class="ben"><strong>Save without relying on willpower</strong><p>Money leaves for savings three days after payday, before you get a vote.</p></div>
-      <div class="ben"><strong>Spend on what you enjoy, guilt-free</strong><p>Once the plan is running, whatever's left is genuinely yours.</p></div>
-      <div class="ben"><strong>Recover money you're already losing</strong><p>Forgotten subscriptions, autopay mandates and annual renewals you never notice.</p></div>
-      <div class="ben"><strong>Give your debt an end date</strong><p>Every balance and rate on one page, in a payoff order that makes sense.</p></div>
-      <div class="ben"><strong>Stop small emergencies becoming credit card debt</strong><p>A staged fund that starts at ₹10,000, not an impossible six-month target.</p></div>
-      <div class="ben"><strong>Stop losing every raise to lifestyle</strong><p>A split rule you decide before the money lands, not after.</p></div>
-      <div class="ben"><strong>Understand investing well enough to start</strong><p>Horizon, risk, costs and SIPs in plain English — no products pushed at you.</p></div>
-      <div class="ben"><strong>Plan for the bills that ambush you</strong><p>Insurance renewals, school fees, wedding season — funded in advance, monthly.</p></div>
-      <div class="ben"><strong>Run your money in 40 minutes a month</strong><p>Salary day, three short weekly checks, one month-end review.</p></div>
-      <div class="ben"><strong>Open your banking app without flinching</strong><p>Harder to measure than the rest. Usually the thing people notice first.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- 13. OBJECTIONS -->
-<section>
-  <div class="wrap faq-wrap">
-    <h2>What you're probably thinking</h2>
-    <details><summary>I don't earn enough to save</summary><p>Sometimes that's genuinely true, and the book says so plainly. If your essentials are above 75% of take-home, no budgeting technique fixes that arithmetic — your fix is structural (rent, a flatmate, loan tenure, income), and the book tells you that instead of pretending otherwise. Meanwhile you save a small amount and keep it. What the book won't do is tell you that skipping coffee solves a structural problem.</p></details>
-    <details><summary>I've tried budgeting before and it didn't stick</summary><p>Most budgets fail for two structural reasons: they run on a 30-day feedback loop, so you find out you overspent when it's too late to correct, and they leave no room for the unexpected. This uses weekly limits and a dedicated buffer bucket for exactly that reason. It also never asks you to cut a category to zero.</p></details>
-    <details><summary>My expenses are already high</summary><p>Then the first thing you need is an accurate picture, not a cut. Chapter 1 is about seeing, not slashing. Once you can see it, you'll usually find one or two categories that are much larger than you assumed — and the advice is to halve the biggest one, not eliminate three.</p></details>
-    <details><summary>I have family responsibilities</summary><p>The book treats money sent home as a fixed essential, not an optional expense — because that's what it is. Every worked example accounts for it, including a ₹55,000 earner supporting parents with an EMI and school fees.</p></details>
-    <details><summary>I have debt</summary><p>Then Chapter 6 is probably where you should start. It covers the real cost of revolving a credit card balance, both payoff methods with honest trade-offs, and how to sequence debt against savings. There's no shaming in it — most consumer debt in India comes from medical bills, emergencies and gaps in income.</p></details>
-    <details><summary>I know nothing about investing</summary><p>That's the assumption the investing chapter is written on. It explains inflation, compounding, risk, time horizon, SIPs, index funds and expense ratios from zero — and deliberately recommends no specific product, fund or stock.</p></details>
-    <details><summary>I don't have time to track every expense</summary><p>Two minutes a day, for one salary cycle. You only have to do it properly once — after a month you can estimate your spending accurately without tracking at all. The book also gives you a ten-minute shortcut using last month's statement if you want a rough picture today.</p></details>
-    <details><summary>Is this just another generic finance ebook?</summary><p>Fair question. The test: every chapter ends with a specific task, there are fourteen worksheets you actually fill in, all figures are in rupees against Indian salaries, and the last chapter sequences the whole thing across 30 days. If you finish it without having built anything, it hasn't done its job.</p></details>
-  </div>
-</section>
-
-<!-- 14. PRODUCT DETAILS -->
-<section>
-  <div class="wrap">
-    <h2>The details</h2>
-    <table class="spec">
-      <tr><th>Format</th><td>PDF ebook (works on phone, tablet, laptop; worksheets print on A4)</td></tr>
-      <tr><th>Length</th><td>58 pages, including 14 printable worksheets</td></tr>
-      <tr><th>Language</th><td>English</td></tr>
-      <tr><th>Price</th><td>₹399</td></tr>
-      <tr><th>Payment</th><td>Razorpay — UPI, credit/debit card, net banking or wallet</td></tr>
-      <tr><th>Delivery</th><td>Instant. The download page opens as soon as your payment succeeds.</td></tr>
-    </table>
-  </div>
-</section>
-
-<!-- 15. VALUE STACK -->
-<section>
-  <div class="wrap">
-    <h2>What you get</h2>
-    <div class="stack">
-      <div class="item"><h3>The complete ebook</h3><p>Ten chapters that build a working money system, written for Indian salaried professionals from beginner level up.</p></div>
-      <div class="item"><h3>The salary reset workbook</h3><p>Fourteen printable worksheets and trackers, sized for A4 with real writing space.</p></div>
-      <div class="item"><h3>The 30-day salary reset</h3><p>A day-by-day plan: what to do, why it matters, how long it takes, and a checklist for each stage.</p></div>
-      <div class="item"><h3>The money leak audit</h3><p>The exercise that shows you the gap between what you think you spend and what you actually spend.</p></div>
-      <div class="item"><h3>The monthly money dashboard</h3><p>A one-page planned-vs-actual review that turns the 30 days into a permanent routine.</p></div>
-      <div class="item"><h3>Three worked case studies</h3><p>₹35K, ₹55K and ₹90K situations, each taken from problem to reset to a running system.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- 16. PRICE / CTA -->
-<section class="buy" id="buy">
-  <div class="wrap">
-    <img class="buy-cover" src="assets/cover.jpg" alt="The Money Reset ebook cover">
-    <h2>Start your 30-day reset</h2>
-    <div class="price">₹399</div>
-    <p>The complete 58-page ebook, 14 printable worksheets, the day-by-day 30-day plan and the monthly dashboard — a PDF you keep. One payment, no subscription.</p>
-    <!-- ==========================================================
-         RAZORPAY PAYMENT BUTTON
-         Paste the embed code from Razorpay Dashboard -> Payment Button
-         -> Get Code, replacing the placeholder <form> below.
-         It looks like:
-           <form><script src="https://checkout.razorpay.com/v1/payment-button.js"
-                 data-payment_button_id="pl_XXXXXXXXXXXX" async></script></form>
-         Configure the button's Redirect URL to:  <your-domain>/thank-you.html
-         See RAZORPAY-SETUP.md for the full walkthrough.
-         ========================================================== -->
-    <div class="pay-slot" id="pay">
-      <form>
-        <!-- REPLACE THIS LINE WITH YOUR RAZORPAY EMBED SCRIPT -->
-        <a class="btn" href="[INSERT RAZORPAY PAYMENT LINK]">Get the Money Reset — ₹399</a>
-      </form>
-    </div>
-    <p class="pay-methods">Pay by UPI, card, net banking or wallet. Payments handled by Razorpay.</p>
-    <p class="btn-note">You're taken straight to your download as soon as the payment succeeds.</p>
-  </div>
-</section>
-
-<!-- 17. RISK REVERSAL -->
-<section>
-  <div class="wrap center">
-    <h2 style="font-size:1.9rem">A practical guide you can start using immediately</h2>
-    <p>You don't need to finish the book before anything changes. The first task takes ten minutes: open last month's statement and categorise every transaction over ₹1,000. Most people find something they'd completely forgotten they were paying for.</p>
-  </div>
-</section>
-
-<!-- 18. FAQ -->
-<section>
-  <div class="wrap faq-wrap">
-    <h2>Questions</h2>
-    <details><summary>Is this book for beginners?</summary><p>Yes. It assumes no prior financial knowledge and explains every term it uses. If you already run a detailed budget and invest regularly, much of it will be familiar.</p></details>
-    <details><summary>Is this specifically for India?</summary><p>Yes. Every figure is in rupees, and it's written around Indian realities — UPI spending, EMIs, money sent home, credit card interest here, EPF, NPS and PPF. The sources section points to the RBI, SEBI, the Income Tax Department and other official sites.</p></details>
-    <details><summary>What salary range is it suitable for?</summary><p>It's built for roughly ₹25,000 to ₹1,00,000 a month take-home, with worked examples at ₹30K, ₹50K, ₹75K and ₹1L. The framework adjusts above or below that; the reasoning is explained so you can adapt it.</p></details>
-    <details><summary>Do I really need to track every expense?</summary><p>For one salary cycle, yes — that's where the useful information is. It takes about two minutes a day, and you only have to do it properly once.</p></details>
-    <details><summary>What if I have debt?</summary><p>There's a full chapter on it: a debt inventory worksheet, the true cost of carrying a credit card balance, and both payoff methods with their trade-offs. It also covers how to sequence debt against saving, so you're not doing both badly.</p></details>
-    <details><summary>Does the book teach investing?</summary><p>It teaches the fundamentals — saving vs investing, inflation, compounding, risk, time horizon, diversification, mutual funds, index funds, SIPs, expense ratios, and how EPF, NPS and PPF fit in. Enough to make informed decisions, and to know what you're being sold.</p></details>
-    <details><summary>Does it recommend specific stocks or funds?</summary><p>No. No stocks, no funds, no insurance products, no apps. It explains how to think about the choice; the choice stays yours.</p></details>
-    <details><summary>Can I use the worksheets digitally?</summary><p>Yes. They're designed to print on A4, but many readers copy them into a spreadsheet or a notes app. The format matters far less than filling them in.</p></details>
-    <details><summary>How much time does each day take?</summary><p>Most days, 5 to 15 minutes. Two days ask for about an hour — building your salary map and setting up automation. Around six hours in total across the month.</p></details>
-    <details><summary>Is this financial advice?</summary><p>No. It's general educational content and doesn't take your specific circumstances into account. For decisions involving significant sums, tax, insurance or investments, speak to a SEBI-registered investment adviser or a qualified chartered accountant. The book says this clearly up front.</p></details>
-    <details><summary>Is it useful if I already budget?</summary><p>Possibly, in parts. If you already track spending and save automatically, the value is likely in the debt, lifestyle-inflation and monthly-system chapters. If your budget keeps collapsing halfway through the month, the whole thing is relevant.</p></details>
-    <details><summary>How do I pay?</summary><p>Through Razorpay, which handles UPI, credit and debit cards, net banking and wallets. Your card and UPI details go to Razorpay, not to us — this site never sees or stores them.</p></details>
-    <details><summary>What if my payment succeeds but the download doesn't open?</summary><p>Keep the Razorpay payment ID from your confirmation SMS or email and write to [INSERT SUPPORT EMAIL]. We'll send the file across manually.</p></details>
-    <details><summary>What format will I receive?</summary><p>A PDF you can read on any device and print worksheets from. As soon as your payment goes through on Razorpay, you land on the download page and can save the file straight away.</p></details>
-  </div>
-</section>
-
-<!-- 19. FINAL CTA -->
-<section class="final">
-  <div class="wrap">
-    <h2>You don't need another month of wondering.</h2>
-    <p class="lede" style="max-width:52ch;margin:0 auto 28px">Your salary was never disappearing. It was going somewhere — and thirty days from now, you'll know exactly where, and what to do about it.</p>
-    <p><a class="btn" href="#buy">Start your 30-day reset — ₹399</a></p>
-    <p class="btn-note">Simple. Practical. Built for Indian salaried professionals.</p>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <p>The Money Reset provides general educational information about personal money management in India. It is not personalised financial, investment, tax or legal advice. Tax rules, interest rates and scheme limits change; verify current figures with official sources before acting. Case studies are fictional illustrations, not predictions.</p>
-    <p>© <span id="yr">2026</span> GrubBite. All rights reserved.</p>
-  </div>
-</footer>
+  <footer>
+    <p>GrubBite publishes general educational information about personal money management in India. Nothing on this site is personalised financial, investment, tax or legal advice.</p>
+    <p>Questions? <a href="mailto:grubbite@gmail.com">grubbite@gmail.com</a> &nbsp;·&nbsp; © <span id="yr">2026</span> GrubBite</p>
+  </footer>
+</div>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 </body>
 </html>
