@@ -22,6 +22,9 @@ No placeholders remain. Payment goes to the live Razorpay link
 Check that the Razorpay link's callback URL is set to
 `https://www.grubbite.com/money-reset/thank-you.html` — see RAZORPAY-SETUP.md.
 
+Delivery is by email: an Apps Script webhook handler attaches the PDF and sends it
+on `payment.captured`. The thank-you page carries no download link.
+
 The PDF delivery link in `thank-you.html` is retained as supplied.
 
 ## Publish

@@ -21,17 +21,15 @@ Before you start you need a Razorpay account with KYC completed and a settlement
 
 ---
 
-## Step 1 — Host the PDF
+## Step 1 — Delivery
 
-Do **not** put the PDF in this repo. Everything in a public GitHub Pages repo is downloadable by anyone, sales page or not.
+The PDF is **emailed to the buyer as an attachment** by a Google Apps Script that
+listens to Razorpay's `payment.captured` webhook. See the separate
+`email-delivery/` setup guide for that piece.
 
-Host it somewhere you control the link:
-
-- Google Drive → share "Anyone with the link" → convert to a direct-download URL, or
-- Dropbox → shared link with `?dl=1` on the end, or
-- Cloudflare R2 / S3 with a long random object name.
-
-Give the file an unguessable name — `money-reset-v1-8f3a29c4.pdf`, not `book.pdf`.
+The thank-you page no longer carries a download link — it just confirms the
+payment and tells the buyer to check their inbox. That means the Drive file does
+not need to be shared publicly.
 
 ## Step 2 — Create the Payment Button
 
@@ -63,7 +61,7 @@ Keep it inside `<div class="pay-slot">` — that's what centres it.
 
 Done. `thank-you.html` points at your Google Drive file:
 
-- Primary button: `https://drive.usercontent.google.com/download?id=1umsPpOa4UjrTxl-Q_4q9_H29qHEB0JaX&export=download` — starts the download directly, no Drive preview.
+- Primary button: `https://drive.usercontent.google.com/download?id=1AACrFFmM7HkkvAXe48lMDnn83Re8pqkb&export=download` — starts the download directly, no Drive preview.
 - Secondary link: the normal Drive view URL, as a fallback if the direct link ever misbehaves.
 
 **Check the sharing setting.** In Drive, the file must be set to *Anyone with the link → Viewer*. If it's restricted to your account, buyers get a "request access" screen instead of the book — the single most common way this breaks.

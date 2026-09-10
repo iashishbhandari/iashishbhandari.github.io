@@ -21,6 +21,10 @@ p{margin:0 0 1em;color:var(--ink-soft)}
 .btn{display:inline-block;background:var(--emerald);color:#fff;text-decoration:none;font-weight:600;font-size:1.05rem;padding:18px 40px;border-radius:6px;margin:14px 0 8px}
 .btn:hover,.btn:focus{background:var(--emerald-dark)}
 .btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.notice{text-align:left;background:#FDF7EA;border:1px solid #EBD9AE;border-radius:10px;padding:22px 26px;margin:30px 0 0}
+.notice-title{font-family:Fraunces,serif;font-weight:700;color:#0C2B33;margin:0 0 10px;font-size:1.05rem}
+.notice p{margin:0 0 10px;font-size:.97rem}
+.notice p:last-child{margin-bottom:0}
 .cover{max-width:190px;margin:32px auto 0;border-radius:3px;box-shadow:0 18px 40px -20px rgba(12,43,51,.6)}
 .next{text-align:left;background:#fff;border:1px solid var(--line);border-radius:10px;padding:26px 28px;margin-top:44px}
 .next h2{font-family:Fraunces,serif;font-size:1.15rem;margin:0 0 12px}
@@ -34,12 +38,14 @@ a{color:var(--emerald)}
 <body>
 <div class="wrap">
   <div class="tick" role="img" aria-label="Payment successful"></div>
-  <h1>Payment received. Here's your book.</h1>
-  <p>Thanks for buying The Money Reset. Save the file somewhere you'll find it again — your phone's Files app or Google Drive works well.</p>
+  <h1>Payment received. Check your email.</h1>
+  <p>Thanks for buying The Money Reset. The PDF is on its way to the email address you used at checkout — it usually arrives within a minute, with the book attached.</p>
 
-  <p><a class="btn" href="https://drive.usercontent.google.com/download?id=1umsPpOa4UjrTxl-Q_4q9_H29qHEB0JaX&amp;export=download">Download the PDF (58 pages)</a></p>
-  <p style="font-size:.9rem">Nothing happened? <a href="https://drive.google.com/file/d/1umsPpOa4UjrTxl-Q_4q9_H29qHEB0JaX/view">Open it in Google Drive</a> instead, then use the download icon at the top right.<br>
-  Still stuck? Email <a href="mailto:grubbite@gmail.com">grubbite@gmail.com</a> with your Razorpay payment ID and we'll send the file across.</p>
+  <div class="notice">
+    <p class="notice-title">Not in your inbox?</p>
+    <p>Check your <strong>spam</strong> and <strong>promotions</strong> folders first — that's where it usually is. Search for <strong>GrubBite</strong>.</p>
+    <p>If it still hasn't arrived after a few minutes, email <a href="mailto:grubbite@gmail.com">grubbite@gmail.com</a> with the Razorpay payment ID from your confirmation SMS, and we'll send it across by hand. We answer every one.</p>
+  </div>
 
   <img class="cover" src="assets/cover.jpg" alt="The Money Reset cover">
 
